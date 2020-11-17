@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="50dp"
+    android:focusableInTouchMode="true"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Register New Donor"
+        android:textSize="25dp"
+        android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="Full Name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="@color/text_hint_color"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:textSize="@dimen/et_text_size"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/bloodgrp_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="Blood Group"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"
+            android:textColorHint="@color/text_hint_color"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:textSize="@dimen/et_text_size"
+            android:drawableLeft="@drawable/ic_blood"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="18dp"
+            />
+    <EditText
+        android:id="@+id/city_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hint="City"
+        android:imeOptions="actionDone"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textColorHint="@color/text_hint_color"
+        android:textCursorDrawable="@drawable/cursor_drawable"
+        android:textSize="@dimen/et_text_size"
+        android:drawableLeft="@drawable/ic_city"
+        android:drawablePadding="15dp"
+        android:layout_marginTop="18dp"
+        />
+
+        <EditText
+            android:id="@+id/phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="Phone Number"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="@dimen/et_text_size"
+            android:textColorHint="@color/text_hint_color"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="18dp"/>
+
+        <Button
+            android:id="@+id/reg_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect_red"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Register"
+            android:textAllCaps="true"
+            android:textColor="#fbfbfb"
+            android:textSize="@dimen/btn_text_size"
+            />
+
+
+
+
+</LinearLayout>
